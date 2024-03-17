@@ -1,31 +1,48 @@
 {
-  "name": "python-ds-extension-pack",
-  "displayName": "Python Data Science",
-  "version": "0.0.1",
-  "description": "An extension pack for Python data scientists.",
-  "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
-  "bugs": {
-    "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-  },
-  "license": "MIT",
-  "publisher": "ms-toolsai",
-  "extensionPack": [
-    "GitHub.codespaces",
-    "GrapeCity.gc-excelviewer",
-    "Iterative.dvc",
-    "donjayamanne.python-environment-manager",
-    "github.copilot",
-    "mechatroner.rainbow-csv",
-    "ms-python.python",
-    "ms-toolsai.datawrangler",
-    "ms-toolsai.jupyter",
-    "ms-vscode-remote.remote-ssh",
-    "msrvida.vscode-sanddance",
-    "visualstudioexptteam.vscodeintellicode"
-  ],
-  "icon": "ds-icon.png"
+    "name": "python-ds-extension-pack",
+    "displayName": "Python Data Science",
+    "version": "0.0.1",
+    "description": "An extension pack for Python data scientists.",
+    "categories": [
+        "Extension Packs",
+        "Data Science",
+        "Machine Learning",
+        "Notebooks",
+        "Visualization"
+    ],
+    "keywords": [
+        "datascience",
+        "jupyter",
+        "notebook",
+        "python",
+        "interactive"
+    ],
+    "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
+    "bugs": {
+        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
+    },
+    "license": "MIT",
+    "publisher": "ms-toolsai",
+    "extensionPack": [
+        "GitHub.codespaces",
+        "GrapeCity.gc-excelviewer",
+        "Iterative.dvc",
+        "donjayamanne.python-environment-manager",
+        "github.copilot",
+        "mechatroner.rainbow-csv",
+        "ms-python.python",
+        "ms-toolsai.datawrangler",
+        "ms-toolsai.jupyter",
+        "ms-vscode-remote.remote-ssh",
+        "msrvida.vscode-sanddance",
+        "visualstudioexptteam.vscodeintellicode"
+    ],
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "icon": "ds-icon.png"
 }
