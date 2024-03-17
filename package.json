@@ -1,18 +1,9 @@
 {
-  "name": "python-ds-extension-pack",
-  "displayName": "Python Data Science",
-  "version": "0.0.1",
-  "description": "An extension pack for Python data scientists.",
-  "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
   "bugs": {
     "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-  },
-  "license": "MIT",
-  "publisher": "ms-toolsai",
+  "description": "An extension pack for Python data scientists.",
+  "displayName": "Python Data Science",
   "extensionPack": [
     "GitHub.codespaces",
     "GrapeCity.gc-excelviewer",
@@ -27,5 +18,14 @@
     "msrvida.vscode-sanddance",
     "visualstudioexptteam.vscodeintellicode"
   ],
-  "icon": "ds-icon.png"
+  "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
+  "icon": "ds-icon.png",
+  "license": "MIT",
+  "name": "python-ds-extension-pack",
+  "publisher": "ms-toolsai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
+  },
+  "version": "0.0.1"
 }
