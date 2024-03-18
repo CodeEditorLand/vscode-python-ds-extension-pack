@@ -1,8 +1,22 @@
 {
     "name": "python-ds-extension-pack",
     "displayName": "Python Data Science",
-    "version": "0.0.1",
     "description": "An extension pack for Python data scientists.",
+    "version": "0.0.1",
+    "publisher": "ms-toolsai",
+    "license": "MIT",
+    "icon": "ds-icon.png",
+    "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
+    },
+    "bugs": {
+        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
+    },
+    "engines": {
+        "vscode": "^1.62.0"
+    },
     "categories": [
         "Extension Packs",
         "Data Science",
@@ -17,32 +31,18 @@
         "python",
         "interactive"
     ],
-    "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
-    "bugs": {
-        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-    },
-    "license": "MIT",
-    "publisher": "ms-toolsai",
-    "extensionPack": [
-        "GitHub.codespaces",
+    "extensionPack": [ 
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-toolsai.datawrangler",
+        "mechatroner.rainbow-csv",
         "GrapeCity.gc-excelviewer",
+        "msrvida.vscode-sanddance",
+        "ms-vscode-remote.remote-ssh",
+        "GitHub.codespaces",
         "Iterative.dvc",
         "donjayamanne.python-environment-manager",
         "github.copilot",
-        "mechatroner.rainbow-csv",
-        "ms-python.python",
-        "ms-toolsai.datawrangler",
-        "ms-toolsai.jupyter",
-        "ms-vscode-remote.remote-ssh",
-        "msrvida.vscode-sanddance",
         "visualstudioexptteam.vscodeintellicode"
-    ],
-    "engines": {
-        "vscode": "^1.62.0"
-    },
-    "icon": "ds-icon.png"
+    ]
 }
