@@ -1,48 +1,46 @@
 {
-    "name": "python-ds-extension-pack",
-    "displayName": "Python Data Science",
-    "description": "An extension pack for Python data scientists.",
-    "version": "0.0.1",
-    "publisher": "ms-toolsai",
-    "license": "MIT",
-    "icon": "ds-icon.png",
-    "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-    },
-    "bugs": {
-        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-    },
-    "engines": {
-        "vscode": "1.62.0"
-    },
-    "categories": [
-        "Extension Packs",
-        "Data Science",
-        "Machine Learning",
-        "Notebooks",
-        "Visualization"
-    ],
-    "keywords": [
-        "datascience",
-        "jupyter",
-        "notebook",
-        "python",
-        "interactive"
-    ],
-    "extensionPack": [ 
-        "ms-toolsai.jupyter",
-        "ms-python.python",
-        "ms-toolsai.datawrangler",
-        "mechatroner.rainbow-csv",
-        "GrapeCity.gc-excelviewer",
-        "msrvida.vscode-sanddance",
-        "ms-vscode-remote.remote-ssh",
-        "GitHub.codespaces",
-        "Iterative.dvc",
-        "donjayamanne.python-environment-manager",
-        "github.copilot",
-        "visualstudioexptteam.vscodeintellicode"
-    ]
+	"name": "python-ds-extension-pack",
+	"displayName": "Python Data Science",
+	"version": "0.0.1",
+	"private": false,
+	"description": "An extension pack for Python data scientists.",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"typescript-esbuild": "latest"
+	},
+	"extensionPack": [
+		"GitHub.codespaces",
+		"GrapeCity.gc-excelviewer",
+		"Iterative.dvc",
+		"donjayamanne.python-environment-manager",
+		"github.copilot",
+		"mechatroner.rainbow-csv",
+		"ms-python.python",
+		"ms-toolsai.datawrangler",
+		"ms-toolsai.jupyter",
+		"ms-vscode-remote.remote-ssh",
+		"msrvida.vscode-sanddance",
+		"visualstudioexptteam.vscodeintellicode"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "ds-icon.png"
 }
