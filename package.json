@@ -1,30 +1,9 @@
 {
-	"name": "python-ds-extension-pack",
-	"displayName": "Python Data Science",
-	"version": "0.0.1",
-	"private": false,
 	"description": "An extension pack for Python data scientists.",
-	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
-	"bugs": {
-		"url": "https://github.com/CodeEditorLand/Foundation/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Playform",
-		"email": "Hello@Playform.Cloud",
-		"url": "https://playform.cloud"
-	},
-	"type": "module",
-	"scripts": {
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
-	},
 	"devDependencies": {
 		"typescript-esbuild": "0.4.5"
 	},
+	"displayName": "Python Data Science",
 	"extensionPack": [
 		"GitHub.codespaces",
 		"GrapeCity.gc-excelviewer",
@@ -39,8 +18,10 @@
 		"msrvida.vscode-sanddance",
 		"visualstudioexptteam.vscodeintellicode"
 	],
-	"publishConfig": {
-		"access": "public"
+	"icon": "ds-icon.png",
+	"name": "python-ds-extension-pack",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
-	"icon": "ds-icon.png"
+	"type": "module"
 }
