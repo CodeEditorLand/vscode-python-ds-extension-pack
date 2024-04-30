@@ -1,48 +1,51 @@
 {
-    "name": "python-ds-extension-pack",
-    "displayName": "Python Data Science",
-    "description": "An extension pack for Python data scientists.",
-    "version": "0.0.1",
-    "publisher": "ms-toolsai",
-    "license": "MIT",
-    "icon": "ds-icon.png",
-    "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-    },
-    "bugs": {
-        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
-    },
-    "engines": {
-        "vscode": "^1.62.0"
-    },
-    "categories": [
-        "Extension Packs",
-        "Data Science",
-        "Machine Learning",
-        "Notebooks",
-        "Visualization"
-    ],
-    "keywords": [
-        "datascience",
-        "jupyter",
-        "notebook",
-        "python",
-        "interactive"
-    ],
-    "extensionPack": [ 
-        "ms-toolsai.jupyter",
-        "ms-python.python",
-        "ms-toolsai.datawrangler",
-        "mechatroner.rainbow-csv",
-        "GrapeCity.gc-excelviewer",
-        "msrvida.vscode-sanddance",
-        "ms-vscode-remote.remote-ssh",
-        "GitHub.codespaces",
-        "Iterative.dvc",
-        "donjayamanne.python-environment-manager",
-        "github.copilot",
-        "visualstudioexptteam.vscodeintellicode"
-    ]
+	"name": "python-ds-extension-pack",
+	"displayName": "Python Data Science",
+	"version": "0.0.1",
+	"private": false,
+	"description": "An extension pack for Python data scientists.",
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandPythonDsExtensionPack#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandPythonDsExtensionPack/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandPythonDsExtensionPack.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"extensionPack": [
+		"GitHub.codespaces",
+		"GrapeCity.gc-excelviewer",
+		"Iterative.dvc",
+		"donjayamanne.python-environment-manager",
+		"github.copilot",
+		"mechatroner.rainbow-csv",
+		"ms-python.python",
+		"ms-toolsai.datawrangler",
+		"ms-toolsai.jupyter",
+		"ms-vscode-remote.remote-ssh",
+		"msrvida.vscode-sanddance",
+		"visualstudioexptteam.vscodeintellicode"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "ds-icon.png"
 }
