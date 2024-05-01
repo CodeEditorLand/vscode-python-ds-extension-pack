@@ -1,35 +1,18 @@
 {
-	"name": "python-ds-extension-pack",
-	"displayName": "Python Data Science",
-	"version": "0.0.1",
-	"private": false,
-	"description": "An extension pack for Python data scientists.",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandPythonDsExtensionPack#readme",
+	"author": {
+		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandPythonDsExtensionPack/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandPythonDsExtensionPack.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🌆 — Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
-	},
+	"description": "An extension pack for Python data scientists.",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6"
 	},
+	"displayName": "Python Data Science",
 	"extensionPack": [
 		"GitHub.codespaces",
 		"GrapeCity.gc-excelviewer",
@@ -44,8 +27,25 @@
 		"msrvida.vscode-sanddance",
 		"visualstudioexptteam.vscodeintellicode"
 	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandPythonDsExtensionPack#readme",
+	"icon": "ds-icon.png",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "python-ds-extension-pack",
+	"private": false,
 	"publishConfig": {
 		"access": "public"
 	},
-	"icon": "ds-icon.png"
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandPythonDsExtensionPack.git"
+	},
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
