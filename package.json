@@ -1,12 +1,49 @@
 {
-	"name": "python-ds-extension-pack",
-	"displayName": "Python Data Science",
-	"description": "An extension pack for Python data scientists.",
-	"extensionPack": [
-		"github.copilot",
-		"ms-python.python",
-		"ms-toolsai.datawrangler",
-		"ms-toolsai.jupyter"
-	],
-	"icon": "Market_DataScience_128.png"
+    "name": "python-ds-extension-pack",
+    "displayName": "Python Data Science",
+    "description": "An extension pack for Python data scientists.",
+    "version": "0.0.1",
+    "publisher": "ms-toolsai",
+    "license": "MIT",
+    "icon": "Market_DataScience_128.png",
+    "homepage": "https://github.com/microsoft/vscode-python-ds-extension-pack",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
+    },
+    "bugs": {
+        "url": "https://github.com/microsoft/vscode-python-ds-extension-pack"
+    },
+    "engines": {
+        "vscode": "^1.88.0"
+    },
+    "categories": [
+        "Extension Packs",
+        "Data Science",
+        "Machine Learning",
+        "Notebooks",
+        "Visualization",
+        "AI"
+    ],
+    "keywords": [
+        "datascience",
+        "jupyter",
+        "notebook",
+        "python",
+        "interactive",
+        "AI",
+        "machine learning",
+        "data wrangling",
+        "data visualization",
+        "data analysis",
+        "data exploration",
+        "data cleaning",
+        "copilot"
+    ],
+    "extensionPack": [ 
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-toolsai.datawrangler",
+        "github.copilot"
+    ]
 }
