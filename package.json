@@ -1,14 +1,14 @@
 {
-	"dependencies": {},
-	"description": "An extension pack for Python data scientists.",
-	"devDependencies": {},
+	"name": "python-ds-extension-pack",
 	"displayName": "Python Data Science",
+	"description": "An extension pack for Python data scientists.",
+	"dependencies": {},
+	"devDependencies": {},
 	"extensionPack": [
 		"github.copilot",
 		"ms-python.python",
 		"ms-toolsai.datawrangler",
 		"ms-toolsai.jupyter"
 	],
-	"icon": "Market_DataScience_128.png",
-	"name": "python-ds-extension-pack"
+	"icon": "Market_DataScience_128.png"
 }
